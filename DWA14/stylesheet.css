@@ -1,0 +1,56 @@
+/* Set the background color for the entire page to light pink */
+body {
+    background-color: lightpink;
+    text-align: center; /* Center-align the content on the page */
+}
+
+/* Style the heading "Tally Count" */
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Style the counter element */
+#counter {
+    background-color: lightpink;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Center the buttons and style them as circles with a darker color */
+/* Style the buttons as white circles */
+button {
+    background-color: white;
+    color: #000; /* Black text color */
+    border: none;
+    border-radius: 50%; /* Makes the buttons circular */
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 16px;
+    padding: 8px; /* Add padding to create space around the text */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+button:hover {
+    background-color: #f0f0f0; /* A slightly darker color on hover */
+}
+
+
+button:hover {
+    background-color: #f0f0f0; /* A slightly darker color on hover */
+}
+
+
+.button:hover {
+    background-color: #ff5555; /* Darker color on hover */
+}
+
+/* Style the confirmation message */
+#confirmationMessage {
+    display: none;
+    background-color: lightpink;
+    padding: 10px;
+    text-align: center;
+}
